@@ -41,9 +41,12 @@ namespace Telecom_Web_App
 
                     // Process the result
                     if (result != null)
-                    {
-                        bool loginValid = Convert.ToBoolean(result);
-                        Response.Write($"Login valid: {loginValid}");
+                    {   
+                        //creating Session
+                        Session["mobileNo"] = mobile;
+                        Response.Redirect("/CustomerAccounts.aspx");
+                        //bool loginValid = Convert.ToBoolean(result);
+                        //Response.Write($"Login valid: {loginValid}");
                     }
                     else
                     {
