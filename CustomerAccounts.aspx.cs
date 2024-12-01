@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace Telecom_Web_App
 {
-    public partial class _Default : System.Web.UI.Page
+    public partial class CustomerAccounts : System.Web.UI.Page
     {
         private string connectionString = WebConfigurationManager.ConnectionStrings["dbConnection"].ToString(); // Replace with your actual connection string
 
@@ -31,7 +31,7 @@ namespace Telecom_Web_App
             {
                 connection.Open();
 
-                string sql = "SELECT * FROM allCustomerAccounts"; // Use the complete view name
+                string sql = "SELECT * FROM CustomerWallet"; // Use the complete view name
 
                 using (SqlCommand command = new SqlCommand(sql, connection))
                 {

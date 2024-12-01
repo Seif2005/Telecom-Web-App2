@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace YourProjectName
+namespace Telecom_Web_App
 {
 
 
-    public partial class _Default
+    public partial class CustomerAccounts
     {
 
         /// <summary>
