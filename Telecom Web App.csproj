@@ -43,6 +43,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -62,29 +65,21 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
-      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="AdminOptions.aspx" />
+    <Content Include="ActiveBenefits.aspx" />
     <Content Include="CustomerAccounts.aspx" />
-    <Content Include="CustomerProfileActive.aspx" />
-    <Content Include="GetShops.aspx" />
-    <Content Include="Login.aspx" />
+    <Content Include="CustomerOptions.aspx" />
     <Content Include="Result.aspx" />
-    <Content Include="Service5Months.aspx" />
-    <Content Include="Wallets_Customers.aspx" />
+    <Content Include="TicketsNotResolved.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdminOptions.aspx.cs">
-      <DependentUpon>AdminOptions.aspx</DependentUpon>
+    <Compile Include="ActiveBenefits.aspx.cs">
+      <DependentUpon>ActiveBenefits.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="AdminOptions.aspx.designer.cs">
-      <DependentUpon>AdminOptions.aspx</DependentUpon>
+    <Compile Include="ActiveBenefits.aspx.designer.cs">
+      <DependentUpon>ActiveBenefits.aspx</DependentUpon>
     </Compile>
     <Compile Include="CustomerAccounts.aspx.cs">
       <DependentUpon>CustomerAccounts.aspx</DependentUpon>
@@ -93,35 +88,14 @@
     <Compile Include="CustomerAccounts.aspx.designer.cs">
       <DependentUpon>CustomerAccounts.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CustomerProfileActive.aspx.cs">
-      <DependentUpon>CustomerProfileActive.aspx</DependentUpon>
+    <Compile Include="CustomerOptions.aspx.cs">
+      <DependentUpon>CustomerOptions.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CustomerProfileActive.aspx.designer.cs">
-      <DependentUpon>CustomerProfileActive.aspx</DependentUpon>
+    <Compile Include="CustomerOptions.aspx.designer.cs">
+      <DependentUpon>CustomerOptions.aspx</DependentUpon>
     </Compile>
     <Compile Include="Generals.cs" />
-    <Compile Include="GetShops.aspx.cs">
-      <DependentUpon>GetShops.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Service5Months.aspx.cs">
-      <DependentUpon>Service5Months.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Service5Months.aspx.designer.cs">
-      <DependentUpon>Service5Months.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="GetShops.aspx.designer.cs">
-      <DependentUpon>GetShops.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.aspx.cs">
       <DependentUpon>Result.aspx</DependentUpon>
@@ -130,12 +104,12 @@
     <Compile Include="Result.aspx.designer.cs">
       <DependentUpon>Result.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Wallets_Customers.aspx.cs">
-      <DependentUpon>Wallets_Customers.aspx</DependentUpon>
+    <Compile Include="TicketsNotResolved.aspx.cs">
+      <DependentUpon>TicketsNotResolved.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Wallets_Customers.aspx.designer.cs">
-      <DependentUpon>Wallets_Customers.aspx</DependentUpon>
+    <Compile Include="TicketsNotResolved.aspx.designer.cs">
+      <DependentUpon>TicketsNotResolved.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>

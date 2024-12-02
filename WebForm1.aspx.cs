@@ -44,7 +44,7 @@ namespace Telecom_Web_App
                     {   
                         //creating Session
                         Session["mobileNo"] = mobile;
-                        Response.Redirect("/CustomerAccounts.aspx");
+                        Response.Redirect("/CustomerOptions.aspx");
                         
                         //Response.Write($"Login valid: {loginValid}");
                     }
