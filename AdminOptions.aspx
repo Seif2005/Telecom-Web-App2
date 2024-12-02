@@ -10,6 +10,8 @@
     <form id="form1" runat="server">
         <div>
         <asp:Button ID="Button1" runat="server" OnClick="All_customers_wallets" Text="All customers Wallets" Height="36px" Width="358px" />
+        <br />
+        <asp:Button ID="Button2" runat="server" OnClick="Customer_Profile_Active_Account" Text="Customer Profiles Active Accounts" Height="36px" Width="358px" />
         </div>
         <p>
             &nbsp;</p>

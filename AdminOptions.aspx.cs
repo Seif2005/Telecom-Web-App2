@@ -20,5 +20,11 @@ namespace Telecom_Web_App
             Response.Redirect("/Wallets_Customers.aspx");
 
         }
+        protected void Customer_Profile_Active_Account(object sender, EventArgs e)
+        {
+            Response.Redirect("/CustomerProfileActive.aspx");
+
+        }
+
     }
 }

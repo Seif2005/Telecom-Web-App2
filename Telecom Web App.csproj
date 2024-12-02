@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="AdminOptions.aspx" />
     <Content Include="CustomerAccounts.aspx" />
+    <Content Include="CustomerProfileActive.aspx" />
     <Content Include="GetShops.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Result.aspx" />
@@ -76,7 +77,6 @@
     <Content Include="Wallets_Customers.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
-    <Content Include="ServicePlan5Months.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminOptions.aspx.cs">
@@ -93,6 +93,13 @@
     <Compile Include="CustomerAccounts.aspx.designer.cs">
       <DependentUpon>CustomerAccounts.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CustomerProfileActive.aspx.cs">
+      <DependentUpon>CustomerProfileActive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CustomerProfileActive.aspx.designer.cs">
+      <DependentUpon>CustomerProfileActive.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Generals.cs" />
     <Compile Include="GetShops.aspx.cs">
       <DependentUpon>GetShops.aspx</DependentUpon>
@@ -104,13 +111,6 @@
     </Compile>
     <Compile Include="Service5Months.aspx.designer.cs">
       <DependentUpon>Service5Months.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ServicePlan5Months.aspx.cs">
-      <DependentUpon>ServicePlan5Months.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ServicePlan5Months.aspx.designer.cs">
-      <DependentUpon>ServicePlan5Months.aspx</DependentUpon>
     </Compile>
     <Compile Include="GetShops.aspx.designer.cs">
       <DependentUpon>GetShops.aspx</DependentUpon>
