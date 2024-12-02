@@ -75,6 +75,7 @@
     <Content Include="Wallets_Customers.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="ServicePlan5Months.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminOptions.aspx.cs">
@@ -95,6 +96,13 @@
     <Compile Include="GetShops.aspx.cs">
       <DependentUpon>GetShops.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServicePlan5Months.aspx.cs">
+      <DependentUpon>ServicePlan5Months.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ServicePlan5Months.aspx.designer.cs">
+      <DependentUpon>ServicePlan5Months.aspx</DependentUpon>
     </Compile>
     <Compile Include="GetShops.aspx.designer.cs">
       <DependentUpon>GetShops.aspx</DependentUpon>
