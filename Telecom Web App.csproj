@@ -67,14 +67,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminOptions.aspx" />
     <Content Include="CustomerAccounts.aspx" />
     <Content Include="GetShops.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Result.aspx" />
+    <Content Include="Wallets_Customers.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminOptions.aspx.cs">
+      <DependentUpon>AdminOptions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminOptions.aspx.designer.cs">
+      <DependentUpon>AdminOptions.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CustomerAccounts.aspx.cs">
       <DependentUpon>CustomerAccounts.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -104,6 +113,13 @@
     </Compile>
     <Compile Include="Result.aspx.designer.cs">
       <DependentUpon>Result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Wallets_Customers.aspx.cs">
+      <DependentUpon>Wallets_Customers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Wallets_Customers.aspx.designer.cs">
+      <DependentUpon>Wallets_Customers.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
