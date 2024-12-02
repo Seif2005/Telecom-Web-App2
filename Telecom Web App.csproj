@@ -80,6 +80,7 @@
     <Compile Include="CustomerAccounts.aspx.designer.cs">
       <DependentUpon>CustomerAccounts.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Generals.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.aspx.cs">
       <DependentUpon>Result.aspx</DependentUpon>
