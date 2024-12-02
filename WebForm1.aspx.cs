@@ -38,14 +38,14 @@ namespace Telecom_Web_App
 
                     // Execute the command and get the scalar value
                     object result = command.ExecuteScalar();
-
+                    bool loginValid = Convert.ToBoolean(result);
                     // Process the result
-                    if (result != null)
+                    if (loginValid)
                     {   
                         //creating Session
                         Session["mobileNo"] = mobile;
                         Response.Redirect("/CustomerAccounts.aspx");
-                        //bool loginValid = Convert.ToBoolean(result);
+                        
                         //Response.Write($"Login valid: {loginValid}");
                     }
                     else

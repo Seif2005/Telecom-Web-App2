@@ -8,8 +8,6 @@
 <body>
     <form id="form2" runat="server">
         <h1>Customer Accounts Preview</h1>
-        <asp:GridView ID="customerGridView" runat="server" AutoGenerateColumns="True">
-        </asp:GridView>
     </form>
 </body>
 </html>
