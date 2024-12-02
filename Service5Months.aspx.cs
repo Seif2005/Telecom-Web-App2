@@ -1,23 +1,21 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Data.SqlClient; // Replace with your data provider if needed
 using System.Linq;
-using System.Web.Configuration;
+using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using static Telecom_Web_App.Helpers;
 
 namespace Telecom_Web_App
 {
-    public partial class ServicePlan5Months : System.Web.UI.Page
+    public partial class Service5Months : System.Web.UI.Page
     {
-        
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                string mobileNumber = Request.QueryString["MobileNo"];
+                string mobileNumber = Session["mobileNo"].ToString();
                 if (string.IsNullOrEmpty(mobileNumber))
                 {
                     Response.Write("Mobile number is required.");
@@ -29,7 +27,5 @@ namespace Telecom_Web_App
 
             }
         }
-
-        
     }
 }
