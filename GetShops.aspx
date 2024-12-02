@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetAllShops.aspx.cs" Inherits="Telecom_Web_App.Shops" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="GetShops.aspx.cs" Inherits="Telecom_Web_App.GetShops" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">

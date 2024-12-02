@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CustomerAccounts.aspx" />
+    <Content Include="GetShops.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="Web.config" />
@@ -82,6 +83,13 @@
       <DependentUpon>CustomerAccounts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Generals.cs" />
+    <Compile Include="GetShops.aspx.cs">
+      <DependentUpon>GetShops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GetShops.aspx.designer.cs">
+      <DependentUpon>GetShops.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -114,18 +122,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-  <Content Include="GetAllShops.aspx">
-    <DependentUpon>GetAllShops.aspx.cs</DependentUpon>
-  </Content>
-  <Compile Include="GetAllShops.aspx.cs">
-    <DependentUpon>GetAllShops.aspx</DependentUpon>
-  </Compile>
-  <Compile Include="GetAllShops.aspx.designer.cs">
-    <DependentUpon>GetAllShops.aspx</DependentUpon>
-  </Compile>
-  </ItemGroup>
-
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
