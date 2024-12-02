@@ -18,8 +18,9 @@ namespace Telecom_Web_App
             if (!IsPostBack)
             {
                 DataTable customerData = GetCustomerData();
-                customerGridView.DataSource = customerData;
-                customerGridView.DataBind();
+                Session["GridData"] = customerData;
+                Response.Redirect("/Result.aspx");
+
             }
         }
 
