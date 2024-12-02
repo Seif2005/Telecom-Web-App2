@@ -38,7 +38,7 @@ namespace Telecom_Web_App
 
                     // Execute the command and get the scalar value
                     object result = command.ExecuteScalar();
-                    bool loginValid = Convert.ToBoolean(result);
+                    bool loginValid = (bool)result;
                     // Process the result
                     if (loginValid)
                     {   
@@ -52,6 +52,7 @@ namespace Telecom_Web_App
                     {
                         Response.Write("Invalid Login");
                     }
+                    conn.Close();
                 }
             }
         }
