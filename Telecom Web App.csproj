@@ -68,6 +68,7 @@
     <Content Include="ActiveBenefits.aspx" />
     <Content Include="CustomerAccounts.aspx" />
     <Content Include="CustomerOptions.aspx" />
+    <Content Include="HighestVoucher.aspx" />
     <Content Include="Result.aspx" />
     <Content Include="TicketsNotResolved.aspx" />
     <Content Include="Web.config" />
@@ -96,6 +97,13 @@
       <DependentUpon>CustomerOptions.aspx</DependentUpon>
     </Compile>
     <Compile Include="Generals.cs" />
+    <Compile Include="HighestVoucher.aspx.cs">
+      <DependentUpon>HighestVoucher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HighestVoucher.aspx.designer.cs">
+      <DependentUpon>HighestVoucher.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Result.aspx.cs">
       <DependentUpon>Result.aspx</DependentUpon>
