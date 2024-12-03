@@ -14,6 +14,9 @@
 
             <asp:Button ID="ticketsNotResolved" runat="server" Text="Tickets Not Resolved" OnClick="ticketsNotResolvedClick" />
             <br /><br />
+
+            <asp:Button ID="highestVoucher" runat="server" Text="Highest Voucher" OnClick="highestVoucherClick" />
+            <br /><br />
         </div>
     </form>
 </body>
