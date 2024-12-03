@@ -22,5 +22,10 @@ namespace Telecom_Web_App
         {
             Response.Redirect("TicketsNotResolved.aspx");
         }
+
+        protected void highestVoucherClick(object sender, EventArgs e)
+        {
+            Response.Redirect("HighestVoucher.aspx");
+        }
     }
 }
